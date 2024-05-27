@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Página Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="imc.js"></script>
+    <script src="login.js"></script>
+    <header>
+        <div class="container">
+            <div class="search-bar">
+                <input class="barra" type="text" placeholder="🔍︎   Buscar">
+                <button type="submit">Buscar</button>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="menu" ><a  class="menu" href="index.html">Inicio</a></li>
+                    <li class="menu" ><a  class="menu" href="imc y peso.html">imc y peso</a></li>
+                    <li class="menu" ><a  class="menu" href="productos.html">Productos</a></li>
+                    <li class="menu" ><a  class="menu" href="consultas.html">consultas </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="overlay">
+            <h1>¿Necesitas una consulta?</h1>
+            <p>Realiza una en linea aqui</p>
+        </div>
+        <img src="flecha.png" >       
+    </main>
+    <div class="container_form">
+        <div class="form_ext">
+            <form class="formulario">
+                <label >Ingresa tu numero de cuenta</label>
+                <input type="text" placeholder="0000-0000-0000-0000" id="num_c"><br>
+                <label >Pin</label>
+                <input type="password" placeholder="000"><br>
+                <label >Cantidad</label>
+                <input type="number" name="pago" id="pago" placeholder="$150">
+                <button class="enviar" onclick="ir(event)">Consulta</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

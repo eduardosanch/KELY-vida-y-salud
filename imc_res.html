@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Página Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="imc.js"></script>
+    <header>
+        <div class="container">
+            <div class="search-bar">
+                <input class="barra" type="text" placeholder="🔍︎   Buscar">
+                <button type="submit">Buscar</button>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="menu" ><a  class="menu" href="index.html">Inicio</a></li>
+                    <li class="menu" ><a  class="menu" href="imc y peso.html">imc y peso</a></li>
+                    <li class="menu" ><a  class="menu" href="productos.html">Productos</a></li>
+                    <li class="menu" ><a  class="menu" href="consultas.html">consultas </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="overlay">
+            <h1>Tu imc es:
+            </h1>
+        </div>
+        <div class="desc">
+           <h2 id="resultado-imc"></h2>
+        </div>
+    </main>
+    <script>
+        //evento para mostrar el imc
+        document.addEventListener('DOMContentLoaded', function() {
+            let imc = localStorage.getItem('imc');
+                document.getElementById('resultado-imc').textContent = "Tu índice de masa corporal es de: " + imc;
+        });
+    </script>
+    <ul class="info">
+        <h3>Conoce cual es tu condicion:</h3>
+    </ul>
+    <img src="imc.jpg" alt="imc" width="400px" >
+    <ul class="info">
+        <h3>Y la tu relacion entre tu peso y estatura:</h3>
+    </ul>
+    <img src="tabla peso.jpg" alt="peso">
+</body>
+</html>

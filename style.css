@@ -1,0 +1,240 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color:#375fe0;
+    color: #ffffff;
+}
+h3, h2 {
+    color: #ffffff; /* Color azul oscuro */
+    text-align: center;
+}
+ 
+/* Parrrafos */
+p {
+    font-size: 1em;
+    margin: 20px auto;
+    max-width: 1000px;
+    color: #ffffff;
+}
+b{
+    color:#ffffff;
+        font-size: 1.5em;
+
+}
+i{
+    color: #ffffff;
+        font-size: 1.2em;
+
+}
+ 
+/* Listas */
+.info {
+    
+    background:rgb(70, 116, 255); 
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px;
+}
+.puntos {
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.menu  li.menu  {
+    display: inline;
+    margin-left: 20px;
+   padding-left: 50px; 
+}
+
+nav ul.menu  li.menu  a.menu  {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+    width: 380px;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+
+    height: 80vh;
+    background-image: url('https://www.campusfunciden.com/wp-content/uploads/2022/12/Carrera-enfermeria-1280x767.jpg ');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px; /* Espaciado a la izquierda */
+    color: white;
+}
+main img{
+    padding-top: 350px;
+    height: 100px;
+    position:relative;
+    margin-left: 45%;
+}
+main h1{
+    font-size: 90px;
+    margin: 0;
+}
+.overlay {
+    position: absolute;
+    text-align: center;
+    animation: fadeIn 2s ease forwards;
+}
+.desc{
+    position:relative;
+    top: 0;
+    right: 0;
+    padding-left: 550px;
+    animation: fadeIn 2s ease forwards;
+    width: 500px; /* Ancho del contenedor del texto adicional */
+}
+.desc h2{
+    margin-top: 0;
+}
+.desc p{
+    margin: 10px 0;
+}
+.container_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_ext{
+    margin: 20px;
+    padding:10px;
+}
+.formulario{
+    background-color: #5fbfe6;
+    padding: 10px;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(8, 226, 255);
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(28, 14, 224);
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+}
+input[type="number"] {
+  
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.enviar {
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(132, 152, 207); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 6px;
+}
+.enviar:hover {
+    background-color: rgb(84, 100, 145);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/*tablas de productos*/
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #5fbfe6;
+    border-radius: 9px;
+    box-shadow: 10px 10px 30px rgb(14, 192, 224);
+
+}
+ 
+table, th, td {
+    border: 1px solid #468af0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 9px;
+}
+ 
+th {
+    background-color:  #5fbfe6;
+    border-radius: 9px;
+}
+ /*boton*/
+ button {
+    background-color: #e0f7fa; /* Fondo azul oscuro */
+    color:  #00796b;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ 
+button:hover {
+    background-color:#b2ebf2; /* Fondo verde azulado oscuro */
+}
+ 
+/* Imágenes */
+table img {
+    max-width: 100px;
+    display: block;
+    margin: 10px auto;
+    height: 100px;
+    width: auto;
+}
+img{
+    margin-left: 400px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Página Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="imc.js"></script>
+    <header>
+        <div class="container">
+            <div class="search-bar">
+                <input class="barra" type="text" placeholder="🔍︎   Buscar">
+                <button type="submit">Buscar</button>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="menu" ><a  class="menu" href="index.html">Inicio</a></li>
+                    <li class="menu" ><a  class="menu" href="imc y peso.html">imc y peso</a></li>
+                    <li class="menu" ><a  class="menu" href="productos.html">Productos</a></li>
+                    <li class="menu" ><a  class="menu" href="consultas.html">consultas </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="overlay">
+            <h1>calcula tu imc</h1>
+            <p>indice de masa corporal</p>
+        </div>
+        <div class="desc">
+            <div class="container_form">
+                <div class="form_ext">
+                    <form class="formulario">
+                        <label name="peso">Ingresa tu peso</label>
+                        <input type="number" placeholder="Peso en kg (45.3)..." id="peso"><br>
+                        <label name="altura">Ingresa tu estatura </label>
+                        <input type="number" name="altura" id="est" step="any" placeholder="en decimal..."><br>
+                        <button class="enviar" onclick="calcular(event);">Calcular</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
