@@ -80,7 +80,7 @@ nav ul.menu  li.menu  a.menu  {
     margin-right: 5px;
     width: 380px;
     border-radius: 10px;
-    height: 25px;
+    height: 20px;
 }
 
 .search-bar button {
@@ -142,16 +142,16 @@ main h1{
     padding:10px;
 }
 .formulario{
-    background-color: #5fbfe6;
+    background-color: #6492e7;
     padding: 10px;
 }
 form {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(8, 226, 255);
+    background-color: #598dec;
     border-radius: 10px;
-    box-shadow: 10px 10px 30px rgb(28, 14, 224);
+    box-shadow: 10px 10px 30px rgb(53, 45, 165);
 }
 label {
     display: block;
@@ -168,7 +168,7 @@ input[type="number"] {
 .enviar {
     width: 100%;
     padding: 10px;
-    background-color:rgb(132, 152, 207); 
+    background-color:rgb(58, 87, 167); 
     color: white;
     border: none;
     border-radius: 5px;
@@ -177,7 +177,7 @@ input[type="number"] {
     border-radius: 6px;
 }
 .enviar:hover {
-    background-color: rgb(84, 100, 145);
+    background-color: rgb(83, 123, 231);
 }
 
 @keyframes fadeIn {
@@ -195,22 +195,23 @@ table {
     width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: #5fbfe6;
-    border-radius: 9px;
-    box-shadow: 10px 10px 30px rgb(14, 192, 224);
+    background-color: #5d8de7;
+    box-shadow: 10px 10px 30px rgb(14, 48, 202);
 
 }
  
 table, th, td {
-    border: 1px solid #468af0;
+    border: 1px solid #1e5bb6;
     padding: 10px;
     text-align: center;
-    border-radius: 9px;
 }
- 
+ td{
+    width: 200px;
+    height: auto;
+    align-items: center;
+ }
 th {
-    background-color:  #5fbfe6;
-    border-radius: 9px;
+    background-color: #5176bb;
 }
  /*boton*/
  button {
@@ -238,3 +239,4 @@ table img {
 img{
     margin-left: 400px;
 }
+
